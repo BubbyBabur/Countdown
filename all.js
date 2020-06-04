@@ -8,7 +8,7 @@ class Countdown{
     
     this.timer = timer;
     
-    this.pomp = loadSound("Short.mov");
+    this.pomp = loadSound("pomp.mp3");
     this.pomp.setVolume(0.2);
     
     this.button = createButton('Click me to unmute!');
