@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+canvas {
+  display: block;
+  position: absolute;
+  z-index:3
+}
+
+button {
+  position:absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%,-50%);
+  z-index: 4;
+  border: none;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "open sans";
+  background-color: #3A3042;
+  color: #FEEEE1;
+}
+
+img {
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  z-index: 1;
+}
+
+p {
+  position: absolute;
+  left:50%;
+  top:85%;
+  transform: translate(-50%,-50%);
+  z-index:2;
+  background-color: rgba(0,0,0,0.3);
+  padding: 10px;
+  color: rgb(255,255,255);
+  font-size:25px;
+  font-family: "open sans";
+}
