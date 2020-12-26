@@ -4,7 +4,7 @@ let all;
 
 function preload() {
   
-  CD = new CTime(4,12,20,0);
+  CD = new CTime(31,12,20,0);
   //CD = new CTime(3,13,42,15);
   all = new Countdown(CD);
   
